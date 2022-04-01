@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginBottom="10dp"
+        app:cardCornerRadius="10dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/background_card">
+
+
+            <ImageView
+                android:id="@+id/image_product"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/round_outline"
+                android:src="@drawable/star_mage" />
+
+            <ImageView
+                android:id="@+id/brandIcon"
+                android:layout_width="140dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="8dp"/>
+
+            <TextView
+                android:id="@+id/textViewInfoName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="22dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="8dp"
+                android:layout_toEndOf="@id/image_product"
+                android:text="Назва товару:"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/nameProduct"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textViewInfoName"
+                android:layout_marginLeft="30dp"
+                android:layout_toEndOf="@id/image_product"
+                android:paddingRight="10dp"
+                android:text="name" />
+
+            <TextView
+                android:id="@+id/textViewInfo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/nameProduct"
+                android:layout_marginStart="22dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@id/image_product"
+                android:text="Опис товару:"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/infoProduct"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textViewInfo"
+                android:layout_marginLeft="30dp"
+                android:layout_toEndOf="@id/image_product"
+                android:paddingRight="10dp"
+                android:text="infoProduct" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:background="@color/textColor"
+                android:layout_alignParentBottom="true"/>
+
+            <TextView
+                android:id="@+id/price"
+                android:layout_width="wrap_content"
+                android:layout_height="45dp"
+                android:layout_alignParentBottom="true"
+                android:background="@color/textColor"
+                android:gravity="center"
+                android:layout_marginLeft="10dp"
+                android:text="100 ГРН"
+                android:textColor="@color/background"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/buttonInfoItem"
+                android:layout_width="wrap_content"
+                android:layout_height="45dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="10dp"
+                android:gravity="center"
+                android:text="Детальніше"
+                android:textAllCaps="true"
+                android:textColor="@color/background"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+</layout>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">StarShop</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="name_shop">STAR\nSHOP</string>
+    <string name="add_in_busket">Додати до кошику</string>
+    <string name="star_shop_inline">STAR SHOP</string>
+</resources>

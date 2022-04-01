@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/background">
+
+
+        <ImageView
+            android:id="@+id/imageStar"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/star_mage" />
+
+        <TextView
+            android:id="@+id/nameShop"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_below="@id/imageStar"
+            android:fontFamily="@font/ukraine_font"
+            android:gravity="center"
+            android:text="@string/name_shop"
+            android:textColor="@color/toolBarColors"
+            android:textSize="60sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+</layout>

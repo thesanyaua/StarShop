@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group>
+        <item
+            android:id="@+id/nike"
+            android:icon="@drawable/nike"
+            android:title="Nike" />
+        <item
+            android:id="@+id/adidas"
+            android:icon="@drawable/adidas"
+            android:title="Adidas" />
+        <item
+            android:id="@+id/puma"
+            android:icon="@drawable/puma"
+            android:title="Puma" />
+        <item
+            android:id="@+id/nb"
+            android:icon="@drawable/new_balance"
+            android:title="New Balance" />
+        <item
+            android:id="@+id/skechers"
+            android:icon="@drawable/star_mage"
+            android:title="Skechers" />
+    </group>
+</menu>
